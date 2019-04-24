@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+<H1>This is an webapp that allows you to create an imagelist.
+The image should be in jpg or in png format that can be uploaded
+by clicking on the following Add Image button. The image list 
+can be viewed by clicking on Image View button. The Image list 
+will only show you the thumbnail of the image uploaded. If you
+want to see the original image just click on the thumbnail of the
+image. Your original image will be shown in another web-page.</H1>
+<a href="{% url 'hotel_images' %}" class="btn btn-info btn-block btn-lg" role="button">Image View</a>
+<a href="{% url 'image_upload' %}" class="btn btn-info btn-block btn-lg" rule="button">Add Image</a>
+</div>
+{% endblock %}
