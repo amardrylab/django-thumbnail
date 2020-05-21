@@ -25,7 +25,7 @@ SECRET_KEY = 'q(65cmoiv9#yg%e$s#r8wvo=+mxnmp4qf2qe78j3+kjcz3cg^q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.drylab.in', 'drylab.in']
+ALLOWED_HOSTS = ['www.drylab.in']
 
 
 # Application definition
